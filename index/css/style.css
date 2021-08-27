@@ -1,0 +1,319 @@
+
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	position: relative;
+}
+
+h1{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	letter-spacing: 0.2em;
+}
+
+h3{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 45px;
+	margin-top: 80px;
+}
+
+.exp{
+	font-size: 30px;
+	color: darkgreen;
+}
+
+.exp12{
+	font-size: 25px;
+	font-style: italic;
+	color: blue;
+	text-indent: 75%;
+}
+
+.exp2{
+	font-size: 30px;
+	font-style: italic;
+	color: blue;
+	text-indent: 75%;
+}
+
+.exp21{
+	font-size: 30px;
+	font-style: italic;
+	color: rgb(134, 34, 143);
+	text-indent: 75%;
+}
+
+.exp3{
+	font-size: 35px;
+	color: goldenrod;;
+}
+
+.exp5{
+	font-size: 40px;
+	font-style: italic;
+}
+
+.header {
+	background-color: #6a13eb;
+	padding-top: 12px; /*задаем внутренний отступки*/
+	padding-bottom: 12px;
+}
+
+.navbar {
+	max-width: 980px;
+	margin: auto;
+	display: flex; /*сделали блок гибким*/
+	justify-content: space-between; /*раставили элементы по краям*/
+	align-items: center;
+	color: #00ecbb;
+}
+
+.navbar-menu {
+	margin: 0; /*отключение отступов внешних*/
+	padding: 0; /*отключение внутренних отступов*/
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-item {
+	font-weight: 800;
+	margin-left: 20px; /*устанавливаем левый отступ в списке меню*/
+	margin-right: 20px; /*устанавливаем правый отступ в списке меню*/
+}
+
+.navbar-link {
+	text-decoration: none;
+	color: #00ecbb;
+}
+
+.navbar-text {
+	display: block;
+	font-weight: 700;
+	color: #00ecbb;
+	margin-bottom: 4px;
+	font-size: 14px;
+	line-height: 16px;
+	text-decoration: none;
+}
+
+.navbar-contacts {
+	text-align: right;
+	justify-content: space-between;
+}
+
+.navbar-phone {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.block1 {
+	width: auto;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: #6a13eb;
+}
+
+.foto-image {
+	width: 980px;
+	height: 500px;
+	background-image: url("../image/foto1.jpg");
+	background-size: cover;
+	box-shadow: 0px -100px 35px 0px rgba(0,0,0,0.8)inset;
+	display: block;
+	margin: 0 auto;
+}
+
+.foto-text {
+	color: #fff;
+	text-align: center;
+	position: relative;
+	top: -60px;
+	margin: 0;
+}
+
+.foto-text2 {
+	color: #fff;
+	text-align: center;
+}
+
+.block2 {
+	width: 980px;
+	height: auto;
+	display: block;
+	margin: 5px auto;
+	padding: 5px;
+	color: black;
+	text-indent: 30px;
+}
+
+.marker{
+	list-style: none;
+	padding: 0;
+	margin: 20px 0;
+}
+
+.marker li{
+	background: url("../image/star4.jpg") no-repeat left center;
+	padding-left: 60px;
+}
+
+.stronge{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 25px;
+	font-style: italic;
+	color: goldenrod;
+	list-style: none;
+	padding: 0;
+	margin: 20px 0;
+	column-count: 2;
+}
+.stronge li{
+	background: url("../image/pic2.png") no-repeat left center;
+	padding-left: 60px;
+}
+
+.block3 {
+	width: 980px;
+	height: auto;
+	display: block;
+	margin: 5px auto;
+	padding: 5px;
+	color: black;
+	text-indent: 30px;
+}
+
+.block4 {
+	width: 980px;
+	height: auto;
+	display: block;
+	margin: 5px auto;
+	padding: 5px;
+	color: black;
+	text-indent: 30px;
+}
+
+.block5{
+	width: auto;
+	height: auto;
+	display: block;
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+	background-image: url("../image/флаг2.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.name2{
+	width: 980px;
+	height: auto;
+	display: block;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+.block6 {
+	width: 980px;
+	height: auto;
+	display: block;
+	margin: 5px auto;
+	padding: 5px;
+	color: black;
+	text-indent: 30px;
+}
+
+.block7 {
+	width: 980px;
+	height: auto;
+	display: block;
+	margin: 5px auto;
+	padding: 5px;
+	color: black;
+	text-indent: 30px;
+}
+
+.family{  /*изменение размера фотки и превращение квадратной фото в круглую*/
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;  /*Радиус скругления */
+	border: 3px solid deepskyblue;  /*Параметры рамки */
+	box-shadow: 0 0 7px #666;  /*Параметры тени */
+	display: flex;  /*равномерное распределение фото и картинок на странице*/
+	justify-content: space-between;  /*равномерное распределение фото и картинок на странице*/
+}
+
+.pic2{
+	display: flex;
+	justify-content: space-between;
+}
+
+.hobby{  /*изменение размера фотки и превращение квадратной фото в круглую*/
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;  /*Радиус скругления */
+	border: 3px solid rgb(202, 18, 156);  /*Параметры рамки */
+	box-shadow: 0 0 7px #666;  /*Параметры тени */
+	display: flex;  /*равномерное распределение фото и картинок на странице*/
+	justify-content: space-between;  /*равномерное распределение фото и картинок на странице*/
+}
+
+.contact{
+	width: 980px;
+	height: auto;
+	display: block;
+	margin: 20px auto;
+	padding: 20px;
+	color: black;
+}
+
+#contact-form{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#contact-form input, #contact-form textarea{
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	outline: none;
+	width: 974px;
+	border: none;
+	border: 3px solid #00ecbb;
+}
+
+textarea{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	height: 100px;
+}
+
+input#submit{
+	cursor: pointer;
+	width: 350px;
+	background: #00ecbb;
+	color: #6a13eb;
+	font-size: 24px;
+}
+
+.click-me{
+	background-image: url("../image/крест.png");
+	background-position: center;
+	background-size: cover;
+	border: none;
+	width: 65px;
+   height: 65px;
+   display: flex;
+	justify-content: center;
+	position: sticky; /* Абсолютное позиционирование */
+   bottom: 140px; /* Положение от нижнего края */
+   left: 1350px; /* Положение от правого края */
+}
